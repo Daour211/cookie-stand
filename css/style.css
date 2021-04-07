@@ -14,25 +14,71 @@ div ul{
     background-color: aqua;
 } */
 
+
+
 /* sales page
 */
-table, th,tr,td{
-    border:solid 1px black;
+
+
+body #salesHeader{
+   background-color: chocolate;
+   height: 100px;
+   margin-bottom: 20px;
 }
 
-body main h2{
-    font-size: 30px;
-    font-weight: 800;
-    text-align: center;
-    color: rgb(68, 0, 156);
+body #salesHeader a:hover{
+    font-weight: 900;
+    color: rgb(88, 245, 88) ;
+    
+    
+
 }
-body a{
+body #salesHeader a:link{
+    font-weight: 900;
+    color: darkblue;
     text-decoration: none;
-    font-weight: 800;
+    padding-left: 20px;
+    
+
 }
-body #homealone{
-    width: 400px;
+body #salesHeader img{
+    float: right;
+    height: 100%;
+    position: relative;
+    bottom: 60px
 }
+#storesForm fieldset{
+    background-color: rgba(199, 202, 202, 0.541);
+    width: 100%;
+}
+
+#storesForm fieldset #avgCookie{
+    margin-top: 5px;
+}
+#one{
+    padding-top: 20px;
+}
+#one table{
+    background: rgb(133, 207, 59);
+    position: relative;
+    left: 270px; 
+    
+}
+   
+table, th,tr,td{
+    border:solid 1px black;
+    border-collapse: collapse;
+    color: rgb(129, 60, 11);
+    background-color: rgb(186, 164, 209);
+    font-weight: bold;
+    text-align: center;
+   
+   
+}
+
+
+
+
 
 /* index.html page */
 
@@ -59,10 +105,16 @@ header nav ul li {
     padding-right:  20px; ;
 }
 
+header nav ul li a:link{
+    font-weight: 900;
+    color: darkblue;
+    text-decoration: none;
+    padding-left: 20px;
+}
 header nav ul li a:hover{
     text-decoration: none;
-    color: darkblue;
-    font-weight: 600;
+    font-weight: 900;
+    color: rgb(88, 245, 88) ;
     
 }
 

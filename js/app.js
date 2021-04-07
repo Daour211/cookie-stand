@@ -90,7 +90,7 @@ let heading = function () {
     firstTh.textContent = ' ';
 
     for (let i = 0; i < times.length; i++) {
-        
+
         let timeTh = document.createElement('th');
         rowHeading.appendChild(timeTh);
         timeTh.textContent = times[i]
@@ -130,6 +130,54 @@ let footer = function () {
 
 }
 
+
+// Adding events:
+
+let storeForm = document.getElementById('storesForm');
+// console.log(storeForm);
+
+// create event
+storeForm.addEventListener('submit', newStore);
+
+// creating the function for submitting
+
+function newStore(event) {
+
+// to stop refershing the page
+    event.preventDefault();
+    // console.log(event);
+
+let storeName = event.target.CityName.value;
+// console.log(storeName);
+
+let minNumber = event.target.minCustomerNumber.value;
+// console.log(minNumber);
+
+let maxNumber = event.target.maxCustomerNumber.value;
+// console.log(maxNumber);
+
+let averageCookie = event.target.avgCookie.value;
+// console.log(averageCookie);
+
+let newStore = new Cities(storeName,minNumber,maxNumber,averageCookie);
+
+// console.log(newStore);
+
+
+
+
+
+tableElement.textContent= ' '
+
+heading();
+for (let i = 0; i < stores.length; i++) {
+    stores[i].calculateCustPerHr();
+    stores[i].calculateAvgCookiePur();
+    stores[i].render();
+
+}
+footer();   
+}
 
 
 
