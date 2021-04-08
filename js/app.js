@@ -163,11 +163,22 @@ let newStore = new Cities(storeName,minNumber,maxNumber,averageCookie);
 
 // console.log(newStore);
 
+// checking if the added store is already in the tabel
 
+// for (let i = 0; i < stores.length; i++) {
+//     if (newStore.location === stores[i].location){
+//         stores[i]= newStore
+            
+// }
 
-
+// clearing the page to add the new store with the pervious ones
 
 tableElement.textContent= ' '
+
+for (let i = 0; i < stores.length; i++) {
+    stores[i].Total = 0;
+    
+}
 
 heading();
 for (let i = 0; i < stores.length; i++) {
