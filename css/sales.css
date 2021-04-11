@@ -1,0 +1,131 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(190, 212, 60);
+}
+body #salesHeader{
+    background-color: rgb(158, 116, 197);
+    height: 100px;
+    margin-bottom: 20px;
+}
+ 
+#salesHeader #salesH2{
+     text-align: center;
+     color: rgb(100, 209, 73);
+     padding-top: 5px;
+     font-size: 30px;
+}
+ body #salesHeader a:hover{
+     font-weight: 900;
+     color: rgb(226, 17, 17) ;
+
+     
+}
+ body #salesHeader a{
+     font-weight: 900;
+     color: rgb(0, 255, 106);
+    
+     text-decoration: none;
+     padding-left: 20px;
+     
+ 
+ }
+ body #salesHeader img{
+     float: right;
+     height: 100%;
+     position: relative;
+     bottom: 65px
+ }
+ #storesForm fieldset{
+    background-color: rgb(158, 116, 197);
+     width: 100%;
+     height:120px ;
+ }
+
+ 
+ #storesForm fieldset #nameAvg{
+     float: left;
+
+}
+
+#storesForm fieldset #customers{
+    float: right;
+}
+
+#storesForm fieldset #submit{
+
+    position: relative;
+    left: 240px;
+    top: 50px;
+    width: 90px;
+    color: rgb(206, 47, 255);
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(190, 212, 60);
+
+}
+
+#CityName {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+#avgCookie {
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+#minCustomerNumber {
+    position: relative;
+    right: 20px;
+    top: -10px;
+}
+
+#maxCustomerNumber {
+    position: relative;
+    right: 20px;
+}
+
+
+#one{
+     padding-top: 20px;
+ }
+ #one table{
+     background: rgb(133, 207, 59);
+     position: relative;
+     left: 170px;
+     top: 20px; 
+     width: 900px;
+    height: 300px;
+
+ }
+
+ table th{
+    font-family: 'Raleway', sans-serif;
+ }
+ table td{
+    font-family: 'Oxygen', sans-serif;
+ }
+ table, th,tr,td{
+     border:solid 1px black;
+     border-collapse: collapse;
+     color: rgb(129, 60, 11);
+     background-color: rgb(186, 164, 209);
+     font-weight: bold;
+     text-align: center;
+    
+    
+ }
+ main img{
+     width: 700px;
+     padding-top: 50px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     height: 100%;
+ }
+ 

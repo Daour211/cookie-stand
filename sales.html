@@ -2,8 +2,14 @@
 <html lang="en">
 <head>
     <!-- <link rel="stylesheet" href="css/reset.css"> -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sales.css">
     <link rel="apple-touch-icon" href="index.html">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
         
     <title>Class06</title>
 </head>
@@ -20,33 +26,45 @@
     <form action="" id="storesForm">
         <fieldset>
 
+            <div id="nameAvg">
+
+            </div>
+
             <!-- Adding city name input -->
-            <label for="CityName">City Name</label>
-            <input type="text" id="CityName" name="CityName" placeholder="Capitalized" required>
-
-
-            <!-- Adding min number of customer input -->
-            <label for="minCustomerNumber">Minimum number of customers</label>
-            <input type="number" id="minCustomerNumber" name="minCustomerNumber" required>
-            
-             <!-- Adding max number of customer input -->
-            <label for="maxCustomerNumber">Maximum number of customers</label>
-            <input type="number" id="maxCustomerNumber" name="maxCustomerNumber" required>
-            
-            <br>
+            <label for="CityName" id="CityName">City Name</label>
+            <input type="text" id="CityName" name="CityName" placeholder="Capitalized" required> <br>
 
             <!-- Adding max number of customer input -->
-            <label for="avgCookie">Avreage Cookies </label>
-            <input type="number" id="avgCookie" name="avgCookie" required step="any">
-            <br>
+            <label for="avgCookie" id="avgCookie">Avg. Cookies </label>
+            <input type="number" id="avgCookie" name="avgCookie" required step="any"> 
+            
 
-            <input type="Submit" >
+            <div id="customers">
+
+                <!-- Adding min number of customer input -->
+                <label for="minCustomerNumber" id="minCustomerNumber">Minimum number of customers</label>
+                <input type="number" id="minCustomerNumber" name="minCustomerNumber" required> <br>
+                
+                 <!-- Adding max number of customer input -->
+                <label for="maxCustomerNumber" id="maxCustomerNumber">Maximum number of customers</label>
+                <input type="number" id="maxCustomerNumber" name="maxCustomerNumber" required> <br>
+            </div>
+
+            
+            
+
+            <input id="submit" type="Submit" >
 
             
 
         </fieldset>
     </form>
+
+<main>
+
     <div id="one"></div>
+    <img src="https://media.tenor.com/images/9bb0422981555220663e10aa5664d5ea/tenor.gif" alt="GIF ">
+</main>    
 
 
 

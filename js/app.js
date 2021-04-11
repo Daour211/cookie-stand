@@ -175,19 +175,25 @@ let newStore = new Cities(storeName,minNumber,maxNumber,averageCookie);
 
 tableElement.textContent= ' '
 
-for (let i = 0; i < stores.length; i++) {
-    stores[i].Total = 0;
+
+// for (let i = 0; i < stores.length; i++) {
+//     stores[i].Total = 0;
     
-}
+// }
 
 heading();
-for (let i = 0; i < stores.length; i++) {
-    stores[i].calculateCustPerHr();
-    stores[i].calculateAvgCookiePur();
-    stores[i].render();
 
+// to only claulate for the new store & the old ones well still have the same values
+newStore.calculateCustPerHr();
+newStore.calculateAvgCookiePur();
+for (let i = 0; i < stores.length; i++) {
+    
+    stores[i].render();
+    // console.log(stores[i]);
 }
+
 footer();   
+
 }
 
 

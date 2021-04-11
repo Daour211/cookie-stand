@@ -3,97 +3,26 @@
     
 }
 
-/* h2{
-    text-align: center;
-    font-weight: 600;
-}
-div h3{
-    background-color: chartreuse;
-}
-div ul{ 
-    background-color: aqua;
-} */
-
-
-
-/* sales page
-*/
-
-
-body #salesHeader{
-   background-color: chocolate;
-   height: 100px;
-   margin-bottom: 20px;
-}
-
-body #salesHeader a:hover{
-    font-weight: 900;
-    color: rgb(88, 245, 88) ;
-    
-    
-
-}
-body #salesHeader a:link{
-    font-weight: 900;
-    color: darkblue;
-    text-decoration: none;
-    padding-left: 20px;
-    
-
-}
-body #salesHeader img{
-    float: right;
-    height: 100%;
-    position: relative;
-    bottom: 60px
-}
-#storesForm fieldset{
-    background-color: rgba(199, 202, 202, 0.541);
-    width: 100%;
-}
-
-#storesForm fieldset #avgCookie{
-    margin-top: 5px;
-}
-#one{
-    padding-top: 20px;
-}
-#one table{
-    background: rgb(133, 207, 59);
-    position: relative;
-    left: 270px; 
-    
-}
-   
-table, th,tr,td{
-    border:solid 1px black;
-    border-collapse: collapse;
-    color: rgb(129, 60, 11);
-    background-color: rgb(186, 164, 209);
-    font-weight: bold;
-    text-align: center;
-   
-   
-}
-
-
-
-
-
 /* index.html page */
 
-body{
-    background-color: rgba(247, 251, 252, 0.767);
+#home{
+    background-color: rgba(230, 167, 215, 0.993);
 }
 header{
-    background-color: rgb(233, 85, 114);
-    height: 70px;
+   background-color: rgb(158, 116, 197);
+   height: 70px;
+   padding-top: 10px;
+   position: fixed;
+   width: 100%;
+   z-index: 3;
 }
 header h2{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 800;
     text-align: center;
-    color: rgb(68, 0, 156);
+    color: rgb(100, 209, 73);
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 header nav{
@@ -102,85 +31,150 @@ header nav{
 
 header nav ul li {
     display: inline-block;
-    padding-right:  20px; ;
+    padding-right:  40px; ;
+    font-size: 20px;
+    font-style: oblique;
+    
+
 }
 
-header nav ul li a:link{
+header nav ul li a{
     font-weight: 900;
-    color: darkblue;
     text-decoration: none;
     padding-left: 20px;
+    color: rgb(0, 255, 106);
+    position: relative;
+    top: -20px;
 }
 header nav ul li a:hover{
     text-decoration: none;
     font-weight: 900;
-    color: rgb(88, 245, 88) ;
+    color: rgb(226, 17, 17) ;
     
 }
 
-main img{
-    padding-top: 10px;
-   position: relative;
-   left: 350px;
-}
-
- #intro{
-    font-size: 20px;
-    font-weight: 700;
-    padding-bottom: 10px;
-    padding-top: 20px;
-
-}
-main p{
-    font-size: 15px;
-    padding-left: 10px;
-}
-#family{
+header img{
+    float: left;
+    height: 100%;
     position: relative;
-    right: 50px;
+    left: 20px;
+    top: -40px;
 }
 
-h3{
+main h3{
     font-size: 20px;
     font-weight: 900;
+    position: relative;
+    top: 100px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    left: 545px;
+    border-style: solid;
+    border-width: 2px;
+    /* display: inline; */
+    padding: 2px;
+     background-color:  rgb(145, 228, 124);
+    color: rgb(110, 39, 177);
+    width: 200px;
+    text-align: center;
+    margin-bottom: 30px;
 }
-ul{
-    padding-top: 4px;
+
+main ul{
+    padding-top: 10px;
+    border-color: green;
+    border-style: solid border;
    
 }
-ul li{
-    padding-left: 10px;
-    padding-top: 4px;
+main ul li{
+    position: relative; 
+    top: 100px;
+    left: 100px;
+    border-color: green;
+    border-style: solid;
+     height: 100px;
+    display: inline-block   ;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    /* display: inline; */
+    padding: 2px;
+    color: rgb(0, 255, 106);
+    background-color: rgb(191, 138, 240);
+    text-align: center  ;
+    margin-left: 30px;
+   
     
 }
 
-main div h3{
-    padding-top: 20px;
-    
+
+
+#family{
+    position: relative;
+    left: 330px;
+    top: 120px;
+    width: 600px;
 }
+ #intro{
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    left: 20px;
+    top: 150px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+main p{
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    position: relative;
+    left: 20px;
+    top: 160px;
+    display: inline;
+}
+
+
 
 #images{
-    margin-left: -100px;
+    margin-left: 250px;
+    margin-top: 190px;
+
 }
 
 #images img{
     align-items: center;
-    padding-right: 20px;
+    padding-right: 200px;
    
     
 }
 
-#last p{
-    font-size: 15px;
-    padding-top: 30px;
+#last{
+    margin-left: 200px;
+    margin-top: 40px;;
 }
-
 #last #first{
     padding-right: 200px;
 }
 
 footer{
-    background-color: rgb(233, 85, 114);
-    text-align: center;
+    background-color: rgb(158, 116, 197);
+    height: 100px;
+    margin-top: 20px ;
+
  
+}
+footer img{
+    float: right;
+    height: 100%;
+    padding-right: 10px;
+}
+footer p{
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    float: left;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    color: rgb(100, 209, 73);
 }
