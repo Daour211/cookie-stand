@@ -66,6 +66,10 @@ body #salesHeader{
     background-color: rgb(190, 212, 60);
 
 }
+#storesForm fieldset #submit:hover{
+    background-color: red;
+
+}
 
 #CityName {
     position: relative;
